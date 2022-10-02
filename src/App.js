@@ -1,19 +1,26 @@
 import './App.css';
-import React ,{component} from 'react';
-import profile from "./Component/profile/ProfilePhoto"
-import add  from './Component/profile/add';
-import name from './Component/profile/Fullname'
+import React  from 'react';
+import ProfilePhoto from './Component/profile/ProfilePhoto';
+import Add from './Component/profile/Add';
+import Fullname from '.Component/profile/Fullname';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <profile></profile>
-      <add> </add>
-      <name></name>
+      <div className="App">
+    <ProfilePhoto></ProfilePhoto>
+       <Add></Add>
+       <Fullname></Fullname>
+      
+
+ 
+    
+
 
 
     </div>
-  );
+  )
 }
 
 export default App;

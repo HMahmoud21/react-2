@@ -3,13 +3,13 @@ const user ={
     firstName:"hajer",
     lastName:"mahmoud",
 }
-function name ()  {
+function Fullname ()  {
  return (
    <>
      <h1>
-        my name {firstName}, my lastName { lastName}
+        my name {user.firstName}, my lastName { user.lastName}
      </h1>
    </>
  );
 };
-export default name ;
+export default Fullname ;

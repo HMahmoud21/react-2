@@ -1,6 +1,6 @@
 import React from "react";
 const Address="abab"
-function add (){
+function Add (){
  return (
    <>
     <h1>
@@ -10,4 +10,4 @@ function add (){
    </>
  );
 };
-export default add ;
+export default Add ;

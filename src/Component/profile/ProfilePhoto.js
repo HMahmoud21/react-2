@@ -1,10 +1,10 @@
 import React from "react";
-import profile from "../../src/img/hajer.jpg"
-function profile () {
+import profile from "../../img/hajer.jpg"
+function ProfilePhoto () {
  return (
    <>
-     <img src ={profile} alt =" photo"/>
+     <img src={profile} alt="kiki"/>
    </>
  );
 };
-export default profile;
+export default ProfilePhoto;
